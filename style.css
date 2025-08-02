@@ -1,0 +1,90 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #1f222a; /* dark slate background */
+  color: #e4e6eb; /* light grayish-white text */
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #9aa0a6;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #f1f3f4;
+  margin-bottom: 10px;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #2a2d36;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #e2e4e9;
+}
+
+/* Paragraphs */
+section p {
+  color: #ccd0d5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #3a3d45;
+  color: #888d96;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #c2c6cc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
