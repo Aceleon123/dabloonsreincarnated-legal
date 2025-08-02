@@ -25,7 +25,7 @@ User data is stored in a private backend controlled by the owner (Szymon Kosk). 
 
 ## 4. Who Has Access
 
-Only the bot owner (Szymon Kosk) has access to this data.  
+Only the bot owner (Aceleon123) has access to this data.  
 No data is ever sold, traded, or shared with third parties.
 
 ## 5. How Long Data Is Retained
