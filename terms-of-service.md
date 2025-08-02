@@ -29,7 +29,7 @@ This data is not shared with third parties.
 
 ## 5. Ownership
 
-DabloonsReincarnated is fully owned and operated by Szymon Kosk. All rights reserved.
+DabloonsReincarnated is fully owned and operated by Aceleon123. All rights reserved.
 
 ## 6. Changes to the Bot or Terms
 
