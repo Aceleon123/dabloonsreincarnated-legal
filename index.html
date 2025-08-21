@@ -3,24 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DabloonsReincarnated</title>
+  <title>Dabloons Reincarnated</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
-    <h1>DabloonsReincarnated</h1>
-    <p>Reviving the classic dabloons trend, but on discord</p>
+    <div class="logo">Project Helix</div>
+    <nav>
+
+    </nav>
   </header>
 
+  <section class="hero">
+    <h1>Dabloons Reincarnated</h1>
+    <p>Reviving the classic dabloons trend — now on Discord</p>
+  </section>
+
   <main>
-    <section class="description">
-      <h2>What is DabloonsReincarnated?</h2>
+    <section class="description card">
+      <h2>What is Dabloons Reincarnated?</h2>
       <p>
-        DabloonsReincarnated is a Discord bot that brings back the nostalgic "dabloons" trend with a new life, dabloons are now ready to use almost everywhere on Discord! Unlike real money systems, this economy is completely virtual and for fun only.
+        DabloonsReincarnated is a Discord bot that brings back the nostalgic "dabloons" trend with a new life. 
+        Your dabloons can now be tracked and shared across Discord, purely for fun and community engagement.
       </p>
     </section>
 
-    <section class="features">
+    <section class="features card">
       <h2>Key Features</h2>
       <ul>
         <li>💸 Track your dabloon balance</li>
@@ -30,22 +38,39 @@
       </ul>
     </section>
 
-    <section class="privacy">
+    <section class="privacy card">
       <h2>Privacy & Data</h2>
       <p>
-        This bot only stores essential data for it to work, such as your Discord ID, the date you started using it, and your dabloon-related stats.
-        Nothing more. Nothing gets sold, shared, or exploited.
+        This bot only stores essential data: your Discord ID, the date you started using it, 
+        and your dabloon stats. Nothing more. Nothing gets sold, shared, or exploited.
       </p>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 DabloonsReincarnated • Made by Aceleon123</p>
+    <p>© 2025 Project Helix • Dabloons Reincarnated</p>
     <div class="footer-links">
-      <a href="terms-of-service.html" target="_blank">Terms of Service</a>
-      <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
     </div>
   </footer>
+<script>
+  document.body.classList.remove("fade-out");
+
+  document.querySelectorAll("a").forEach(link => {
+    if (link.hostname === window.location.hostname) {
+      link.addEventListener("click", e => {
+        const target = link.getAttribute("href");
+        if (target.startsWith("http") || target.startsWith("#")) return;
+
+        e.preventDefault();
+        document.body.classList.add("fade-out");
+        setTimeout(() => {
+          window.location = link.href;
+        }, 400); 
+      });
+    }
+  });
+</script>
 </body>
 </html>
-
